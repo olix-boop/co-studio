@@ -6,7 +6,7 @@ const projects = [
     title: 'La Sfera — Sala Biliardi',
     desc: 'Pessano con Bornago, MI',
     tags: ['Landing Page', 'Ristorazione & Sport'],
-    image: '/projects/la-sfera.jpg',
+    image: `${import.meta.env.BASE_URL}projects/la-sfera.jpg`,
     gradient: 'linear-gradient(135deg, #1a2744 0%, #0d3b2e 100%)',
     accent: '#2d8653',
     emoji: '🎱',
